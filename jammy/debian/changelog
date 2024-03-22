@@ -1,3 +1,9 @@
+gz-transport13 (13.2.0~pre1-1~jammy) jammy; urgency=medium
+
+  * gz-transport13 13.2.0~pre1-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Fri, 22 Mar 2024 00:14:17 +0000
+
 gz-transport13 (13.1.0-1~jammy) jammy; urgency=medium
 
   * gz-transport13 13.1.0-1 release
