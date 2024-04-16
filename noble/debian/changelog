@@ -1,3 +1,9 @@
+gz-transport13 (13.1.0-2~noble) noble; urgency=medium
+
+  * gz-transport13 13.1.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 16 Apr 2024 18:20:40 +0200
+
 gz-transport13 (13.1.0-1~noble) noble; urgency=medium
 
   * First release for noble
