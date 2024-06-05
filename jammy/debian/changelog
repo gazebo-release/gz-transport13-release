@@ -1,3 +1,9 @@
+gz-transport13 (13.3.0-1~jammy) jammy; urgency=medium
+
+  * gz-transport13 13.3.0-1 release
+
+ -- Carlos Aguero <caguero@openrobotics.org>  Wed, 05 Jun 2024 22:16:05 +0200
+
 gz-transport13 (13.2.0-1~jammy) jammy; urgency=medium
 
   * gz-transport13 13.2.0-1 release
