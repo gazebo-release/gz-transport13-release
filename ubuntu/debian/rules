@@ -35,3 +35,13 @@ override_dh_auto_test:
 
 override_dh_strip:
 	dh_strip -a --dbg-package=libgz-transport13-dbg
+
+# Execute doc creation to export at least the doxygen tag file
+override_dh_auto_build:
+	dh_auto_build -- doc
+	dh_auto_build
+
+override_dh_auto_install:
+	dh_auto_install
+	install -d debian/tmp/usr/share/gz/gz-transport13/
+	install ./obj-*/*.tag.xml debian/tmp/usr/share/gz/gz-transport13/
