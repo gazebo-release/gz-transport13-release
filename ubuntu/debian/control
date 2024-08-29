@@ -36,6 +36,8 @@ Section: libdevel
 Depends: libgz-transport13 (= ${binary:Version}),
          uuid-dev,
          libzmq3-dev (>= 3.0.0),
+# CMake target CPPZMQ::CPPZMQ is declared in the new cppzmq-dev package in Ubuntu Noble onwards
+         cppzmq-dev | libzmq3-dev (>= 3.0.0),
          libgz-msgs10-dev,
          libgz-cmake3-dev,
          libgz-tools2-dev,
