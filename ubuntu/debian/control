@@ -24,6 +24,8 @@ Build-Depends: cmake,
                python3-pybind11,
                uuid-dev,
                libzmq3-dev (>= 3.0.0),
+# CMake target CPPZMQ::CPPZMQ is declared in the new cppzmq-dev package in Ubuntu Noble onwards
+               cppzmq-dev | libzmq3-dev (>= 3.0.0),
                libsqlite3-dev
 Vcs-Browser: https://github.com/gazebosim/gz-transport
 Vcs-Git: https://github.org/gazebo-release/gz-transport13-release
@@ -36,6 +38,8 @@ Section: libdevel
 Depends: libgz-transport13 (= ${binary:Version}),
          uuid-dev,
          libzmq3-dev (>= 3.0.0),
+# CMake target CPPZMQ::CPPZMQ is declared in the new cppzmq-dev package in Ubuntu Noble onwards
+         cppzmq-dev | libzmq3-dev (>= 3.0.0),
          libgz-msgs10-dev,
          libgz-cmake3-dev,
          libgz-tools2-dev,
